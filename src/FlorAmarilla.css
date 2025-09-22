@@ -1,0 +1,77 @@
+.flor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fffbe7;
+}
+
+.flor {
+  position: relative;
+  width: 160px;
+  height: 220px;
+  margin-bottom: 30px;
+}
+
+.petalo {
+  position: absolute;
+  width: 70px;
+  height: 120px;
+  background: #ffe066;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.petalo1 {
+  top: 10px;
+  left: 45px;
+  transform: rotate(0deg);
+}
+.petalo2 {
+  top: 10px;
+  left: 45px;
+  transform: rotate(90deg);
+}
+.petalo3 {
+  top: 10px;
+  left: 45px;
+  transform: rotate(45deg);
+}
+.petalo4 {
+  top: 10px;
+  left: 45px;
+  transform: rotate(-45deg);
+}
+
+.centro {
+  position: absolute;
+  top: 55px;
+  left: 65px;
+  width: 30px;
+  height: 30px;
+  background: #ffd700;
+  border-radius: 50%;
+  border: 3px solid #e6b800;
+  z-index: 2;
+}
+
+.tallo {
+  position: absolute;
+  top: 85px;
+  left: 90px;
+  width: 8px;
+  height: 120px;
+  background: #7bb661;
+  border-radius: 0 0 10px 10px;
+  z-index: 0;
+}
+
+.mensaje {
+  font-family: 'Segoe Script', 'Comic Sans MS', cursive;
+  color: #e6b800;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 8px #fffbe7, 0 2px 4px #ffe066;
+  margin-top: 0;
+}
